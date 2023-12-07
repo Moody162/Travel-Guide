@@ -160,7 +160,7 @@ To run the `travel_guide_app.py` console application, follow these instructions:
 5. **Run the Application:**
    - Execute the Python script by running:
      ```bash
-     python3 travel_guide_app.py
+     python travel_guide_app.py
      ```
      Use `python3` if your system defaults to Python 2 when using `python`.
 
