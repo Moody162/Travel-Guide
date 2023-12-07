@@ -123,3 +123,33 @@ To set up the database for the Travel Guide Application on a PostgreSQL server, 
      ```
 
 Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps.
+
+## Running the Console Application
+
+To run the `travel_guide_app.py` console application, follow these instructions:
+
+1. **Ensure Python is Installed:**
+   - Verify that Python is installed on your system by running `python --version` or `python3 --version` in your command line interface (CLI).
+
+2. **Install Required Python Packages:**
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - This command installs the `psycopg2` package.
+
+3. **Navigate to the Source Code Directory:**
+   - Use the `cd` command to change directory to where `travel_guide_app.py` is located. If the current directory is the root directory of the repository, use:
+     ```bash
+     cd src
+     ```
+     Otherwise, replace `src` with the actual path to the application's source code directory.
+
+4. **Run the Application:**
+   - Execute the Python script by running:
+     ```bash
+     python3 travel_guide_app.py
+     ```
+     Use `python3` if your system defaults to Python 2 when using `python`.
+
+5. **Follow On-screen Instructions:**
+   - Once the application starts, follow any on-screen prompts or instructions provided by the application for its use.
