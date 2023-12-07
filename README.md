@@ -144,7 +144,20 @@ To run the `travel_guide_app.py` console application, follow these instructions:
      ```
      Otherwise, replace `src` with the actual path to the application's source code directory.
 
-4. **Run the Application:**
+4. **Update Configuration Parameters:**
+   - Open the `config.py` file in your code editor.
+   - Modify the `db_params` dictionary to match your local database settings. For example:
+     ```python
+     db_params = {
+         'dbname': 'travel_guide',
+         'user': 'your_database_user',
+         'password': 'your_database_password',
+         'host': 'your_database_host'
+     }
+     ```
+     Replace `'your_database_user'`, `'your_database_password'`, and `'your_database_host'` with the appropriate values for your local database setup. If your local database setup has default parameters, the only field you should modify is `password`.
+
+5. **Run the Application:**
    - Execute the Python script by running:
      ```bash
      python3 travel_guide_app.py
