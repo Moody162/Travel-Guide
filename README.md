@@ -92,3 +92,34 @@ CREATE TABLE suggestion (
     FOREIGN KEY (questionnaire_id) REFERENCES questionnaire(questionnaire_id),
     FOREIGN KEY (destination_id) REFERENCES destination(destination_id)
 );
+```
+
+## Database Setup Instructions
+
+To set up the database for the Travel Guide Application on a PostgreSQL server, follow these steps:
+
+1. **Open Command Line Interface (CLI):**
+   - On Windows, open Command Prompt.
+   - On MacOS or Linux, open Terminal.
+
+2. **Navigate to the SQL Scripts Directory:**
+   - Change directory to where the SQL scripts are located:
+     ```
+     cd path/to/sql_scripts
+     ```
+
+3. **Execute SQL Scripts:**
+   - Run the 'create_travel_guide_db.sql' script to create and set up the database:
+     ```
+     psql -U postgres -f create_travel_guide_db.sql
+     ```
+   - Then, define the relational schema with 'relational_schema.sql':
+     ```
+     psql -U postgres -f relational_schema.sql
+     ```
+   - Finally, populate the database with sample data using 'sample_data.sql':
+     ```
+     psql -U postgres -f sample_data.sql
+     ```
+
+Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps.
