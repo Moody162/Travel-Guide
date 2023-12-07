@@ -122,7 +122,7 @@ To set up the database for the Travel Guide Application on a PostgreSQL server, 
      psql -U postgres -f sample_data.sql
      ```
 
-Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps.
+Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps. For this commands to be executed using the CLI as shown, ensure that `psql` is added to `PATH`.
 
 ## Running the Console Application
 
