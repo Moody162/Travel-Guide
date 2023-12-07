@@ -115,11 +115,11 @@ To set up the database for the Travel Guide Application on a PostgreSQL server, 
      ```
    - Then, define the relational schema with 'relational_schema.sql':
      ```
-     psql -U postgres -d travel_guide -a -f relational_schema.sql
+     psql -U postgres -d travel_guide -f relational_schema.sql
      ```
    - Finally, populate the database with sample data using 'sample_data.sql':
      ```
-     psql -U postgres -d travel_guide -a -f sample_data.sql
+     psql -U postgres -d travel_guide -f sample_data.sql
      ```
 
 Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps. For this commands to be executed using the CLI as shown, ensure that `psql` is added to `PATH`.
