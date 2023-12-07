@@ -1,5 +1,14 @@
 # Travel Guide Application
 
+This application is our final project for the CS 425: Database Organization course at the Illinois Institute of Technology (IIT), developed for the Fall 2023 semester.
+
+## Project Members
+
+- **Mohamad Dib Fares (A20482852)**
+- **Hamza Taheir Bu Obaid (A20500711)**
+- **Mehal Gosalia (A20484633)**
+- **Rajdeep Singh Konthoujam (A20493036)**
+
 ## Entity Relationship Description and Application Basic Structure
 
 ### Entity Relationship Description
