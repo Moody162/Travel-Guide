@@ -124,6 +124,8 @@ To set up the database for the Travel Guide Application on a PostgreSQL server, 
 
 Ensure that you replace `path/to/sql_scripts` with the actual path to your SQL scripts. PostgreSQL must be installed and running on your system to execute these steps. For this commands to be executed using the CLI as shown, ensure that `psql` is added to `PATH`.
 
+Note: The database can be setup also using pgAdmin 4.
+
 ## Running the Console Application
 
 To run the `travel_guide_app.py` console application, follow these instructions:
