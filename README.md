@@ -2,13 +2,6 @@
 
 The Travel Guide Application is a database-driven system created for CS 425: Database Organization at IIT, Fall 2023. It allows users to find travel destinations based on their preferences. Users fill out a questionnaire about their travel interests, budget, and preferred weather. The app then suggests destinations that match these criteria, using a database to store and process user inputs and destination information.
 
-## Project Members
-
-- **Mohamad Dib Fares (A20482852)**
-- **Hamza Taheir Bu Obaid (A20500711)**
-- **Mehal Gosalia (A20484633)**
-- **Rajdeep Singh Konthoujam (A20493036)**
-
 ## Entity Relationship Description and Application Basic Structure
 
 ### Entity Relationship Description
